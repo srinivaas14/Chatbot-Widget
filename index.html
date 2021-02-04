@@ -34,7 +34,9 @@
 
     <!--Main css-->
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/recorder.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/recorderjs/0.1.0/recorder.js"></script>
   </head>
 
   <body>
@@ -77,6 +79,9 @@
           <div id="sendButton">
             <i class="fa fa-paper-plane" aria-hidden="true"></i>
           </div>
+          <div id="microPhone" recording="false">
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+          </div>
         </div>
       </div>
 
@@ -103,6 +108,7 @@
 
     <!--Main Script -->
     <script type="text/javascript" src="static/js/script.js"></script>
+    <script type="text/javascript" src="static/js/recorder.js"></script>
 
     <!--Chart.js Script -->
     <script type="text/javascript" src="static/js/chart.min.js"></script>

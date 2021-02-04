@@ -1,0 +1,17 @@
+.recording {
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0px 0px 5px 0px #b2c9fd;
+  }
+  65% {
+    box-shadow: 0px 0px 5px 13px #c5d7fe;
+  }
+  90% {
+    box-shadow: 0px 0px 5px 13px #d9e4fe;
+  }
+}

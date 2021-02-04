@@ -128,7 +128,7 @@ textarea-webkit-scrollbar {
 
 .usrInput {
   padding: 0.5em;
-  width: 80%;
+  width: 70%;
   margin-left: 4%;
   border: 0;
   padding-left: 15px;
@@ -146,16 +146,29 @@ textarea-webkit-scrollbar {
   border-radius: 0px 0px 10px 10px;
 }
 
+#microPhone {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #2b2bab;
+}
 #sendButton {
   height: 20px;
   width: 20px;
   border-radius: 50%;
   display: inline-block;
   float: right;
-  margin-right: 30px;
+  margin-right: 5%;
   text-align: center;
   padding: 5px;
-  font-size: 20px;
+  font-size: 1.5em;
   cursor: pointer;
   color: #2b2bab;
 }
