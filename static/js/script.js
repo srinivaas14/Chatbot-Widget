@@ -22,6 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // initialization
 $(document).ready(() => {
+
+  
   // Bot pop-up intro
   $("div").removeClass("tap-target-origin");
 
