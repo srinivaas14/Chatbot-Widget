@@ -95,7 +95,7 @@ function stopRecordInterval() {
         data: JSON.stringify({
           config: {
             encoding: 'LINEAR16',
-            sampleRateHertz: 44100,
+            sampleRateHertz: 48000,
             languageCode: 'en-US',
           },
           audio: { content: base64data },
